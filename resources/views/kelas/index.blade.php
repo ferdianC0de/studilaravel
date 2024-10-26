@@ -8,6 +8,8 @@
                 <div class="card-header">{{ __('Data Kelas') }}</div>
 
                 <div class="card-body">
+
+                    <a href="{{ route('data-kelas.create') }}" class="btn btn-success">Tambah Data</a>
                    <table class="table">
                         <thead>
                             <th>No</th>
